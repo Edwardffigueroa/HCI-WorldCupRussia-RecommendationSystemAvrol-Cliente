@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="paises">
+        <item>Brazil -BRA</item>
+        <item>Croacia -CRO</item>
+        <item>Mexico -MEX</item>
+        <item>Camerun -CMR</item>
+        <item>España -ESP</item>
+        <item>Holanda -NLD</item>
+        <item>Chile -CHL</item>
+        <item>Australia -AUS</item>
+        <item>Colombia -COL</item>
+        <item>Grecia -GRC</item>
+        <item>Uruguay -URY</item>
+        <item>Costa Rica -CRI</item>
+        <item>Costa de Marfil -CIV</item>
+        <item>Japon -JPN</item>
+        <item>Inglaterra -IGN</item>
+        <item>Italia -ITA</item>
+        <item>Suiza -SUI</item>
+        <item>Ecuador -ECU</item>
+        <item>Francia -FRA</item>
+        <item>Honduras -HND</item>
+        <item>Argentina -ARG</item>
+        <item>Bosnia -BIH</item>
+        <item>Iran -IRN</item>
+        <item>Nigeria -NGA</item>
+        <item>Alemania -DEU</item>
+        <item>Portugal -PRT</item>
+        <item>Ghana -GHA</item>
+        <item>Estados Unidos -USA</item>
+        <item>Belgica -BEL</item>
+        <item>Argelia -AGL</item>
+        <item>Rusia -RUS</item>
+        <item>Korea -KOR</item>
+    </string-array>
+
+</resources>
