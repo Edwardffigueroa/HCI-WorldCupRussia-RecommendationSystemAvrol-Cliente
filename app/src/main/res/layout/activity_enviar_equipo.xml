@@ -67,7 +67,7 @@
         android:id="@+id/teamT" />
 
     <TextView
-        android:text="TextView"
+        android:text="Equipo Cuatro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/sp_paises_C"

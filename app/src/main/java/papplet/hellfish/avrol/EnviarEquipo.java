@@ -30,7 +30,7 @@ public class EnviarEquipo extends AppCompatActivity implements Observer{
     String equipoTres="";
     String equipoCuatro="";
 
-    private boolean firstTime = true;
+    private boolean firstTime = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -97,7 +97,7 @@ public class EnviarEquipo extends AppCompatActivity implements Observer{
                 if(firstTime){
                     firstTime = false;
                 }else{
-                    Toast.makeText(getApplicationContext(),items[i],Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),items[i],Toast.LENGTH_SHORT).show();
                     String[] partes=items[i].split("-");
                     equipoTres=partes[1];
                 }
@@ -116,7 +116,7 @@ public class EnviarEquipo extends AppCompatActivity implements Observer{
                 if(firstTime){
                     firstTime = false;
                 }else{
-                    Toast.makeText(getApplicationContext(),items[i],Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),items[i],Toast.LENGTH_SHORT).show();
                     String[] partes=items[i].split("-");
                     equipoCuatro=partes[1];
                 }
@@ -136,7 +136,7 @@ public class EnviarEquipo extends AppCompatActivity implements Observer{
         enviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Comunicacion.getInstance().enviar(equipoUno+":"+equipoDos+":"+equipoTres+":"+equipoCuatro);
+                Comunicacion.getInstance().enviar("datos"+":"+equipoUno+":"+equipoDos+":"+equipoTres+":"+equipoCuatro);
                 Toast.makeText(getApplicationContext(),equipoUno+":"+equipoDos+":"+equipoTres+":"+equipoCuatro,Toast.LENGTH_LONG).show();
 
                 Intent i = new Intent(getApplicationContext(), MainActivity.class);

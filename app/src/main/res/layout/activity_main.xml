@@ -14,7 +14,7 @@
         android:layout_marginTop="156dp"
         android:layout_alignStart="@+id/ed_txt_pass"
         android:layout_alignEnd="@+id/ed_txt_pass"
-        android:hint="Usuario" />
+        android:hint="Nombre y Apellido" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
         android:id="@+id/ed_txt_pass"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:hint="Contraseña" />
+        android:hint="Código" />
 
     <!--android:inputType="textPassword"-->
 

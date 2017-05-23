@@ -21,7 +21,7 @@ public class Comunicacion extends Observable implements Runnable {
     private Socket s;
     private boolean corriendo;
     //private String ip = "10.0.2.2";
-    private String ip = "172.30.164.195";
+    private String ip = "172.30.165.61";
     private int puerto = 5000;
     private boolean conectando;
     private boolean reset;
